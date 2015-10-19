@@ -1,0 +1,49 @@
+@import "bootstrap/bootstrap";
+@import "variables";
+@import "bootswatch";
+
+
+.form-group.required label:after {
+  content:"*";
+  color:red;
+  font-weight:700;
+}
+
+.form-group.required input, .form-group.required select, .form-group.required textarea{
+  background-color: #FFFBD3;
+}
+
+.badge-sub-requirement{
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  background-color: #f0f0f0;
+}
+
+.badge-sub-requirement label{
+  width: 100%;
+}
+
+.badge-sub-requirement input{
+  max-width: 100px;
+}
+
+.badge-sub-requirement-complete{
+  background-color: #00c658;
+}
+
+.big-ajax-load-notification{
+  width: 100%;
+  height: 350px;
+  display:none;
+  background: url('../images/loader.gif') center center no-repeat;
+}
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer .debug{
+  font-size: 10px;
+  color: #afafaf;
+}
